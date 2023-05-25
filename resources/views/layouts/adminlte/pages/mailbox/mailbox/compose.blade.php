@@ -3,7 +3,7 @@
 @section('content')
 @section('styles')
   <!-- summernote -->
-  <link rel="stylesheet" href="{{asset('{{asset('plugins/summernote/summernote-bs4.min.css')}}">
+  <link rel="stylesheet" href="{{asset(''plugins/summernote/summernote-bs4.min.css')}}">
 @endsection
 
 <div class="container-fluid">

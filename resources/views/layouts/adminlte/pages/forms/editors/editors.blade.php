@@ -3,10 +3,10 @@
 @section('content')
 @section('styles')
 <!-- summernote -->
-<link rel="stylesheet" href="{{asset('{{asset('plugins/summernote/summernote-bs4.min.css')}}">
+<link rel="stylesheet" href="{{asset(''plugins/summernote/summernote-bs4.min.css')}}">
 <!-- CodeMirror -->
-<link rel="stylesheet" href="{{asset('{{asset('plugins/codemirror/codemirror.css')}}">
-<link rel="stylesheet" href="{{asset('{{asset('plugins/codemirror/theme/monokai.css')}}">
+<link rel="stylesheet" href="{{asset(''plugins/codemirror/codemirror.css')}}">
+<link rel="stylesheet" href="{{asset(''plugins/codemirror/theme/monokai.css')}}">
 
 @endsection
 <div class="row">

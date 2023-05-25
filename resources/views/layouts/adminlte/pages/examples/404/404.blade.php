@@ -13,7 +13,7 @@
 
         <p>
             We could not find the page you were looking for.
-            Meanwhile, you may <a href="{{asset('index.html">return to dashboard</a> or try using the search form.
+            Meanwhile, you may <a href="{{route('welcomex-dashboa1')}}">return to dashboard</a> or try using the search form.
         </p>
 
         <form class="search-form">

@@ -22,6 +22,17 @@ class WelcomController extends Controller
         'sectionx' => false // Indicador de sección (valor inicial: falso)
     ];
     
+    public function welcome()
+    {
+        $this->parametr['breadcru']['activexx']='Dasboard V1';
+        $this->parametr['breadcru']['linkxxxx'][]=['tituloxx'=>'Dasboard V1',"activexx" => "active"];
+
+        $this->parametr['clasnavb'] = 'navbar-expand navbar-white navbar-light';
+
+        $this->parametr['clasbody'] = 'sidebar-mini layout-fixed';
+        //return view('welcome');
+        return view('welcome', $this->parametr);
+    }
 
     public function index()
     {

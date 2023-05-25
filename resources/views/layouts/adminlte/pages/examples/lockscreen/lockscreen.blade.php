@@ -8,15 +8,15 @@
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="{{asset('{{asset('plugins/fontawesome-free/css/all.min.css')}}">
+  <link rel="stylesheet" href="{{asset(''plugins/fontawesome-free/css/all.min.css')}}">
   <!-- Theme style -->
-  <link rel="stylesheet" href="{{asset('{{asset('dist/css/adminlte.min.css')}}">
+  <link rel="stylesheet" href="{{asset(''dist/css/adminlte.min.css')}}">
 </head>
 <body class="hold-transition lockscreen">
 <!-- Automatic element centering -->
 <div class="lockscreen-wrapper">
   <div class="lockscreen-logo">
-    <a href="{{asset('index2.html"><b>Admin</b>LTE</a>
+    <a href="{{route('welcomex-dashboa2')}}"><b>Admin</b>LTE</a>
   </div>
   <!-- User name -->
   <div class="lockscreen-name">John Doe</div>

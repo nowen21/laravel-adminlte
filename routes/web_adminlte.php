@@ -7,10 +7,14 @@ $controll = 'App\Http\Controllers\WelcomController@';
 
 Route::group(['prefix' => ''], function () use ($routexxx, $controll) {
 
-    // Ruta para la página de inicio
     Route::get('/', [
-        'uses' => $controll . 'index',
+        'uses' => $controll . 'welcome',
     ])->name($routexxx);
+
+    // Ruta para la página de inicio
+    Route::get('dashboard1', [
+        'uses' => $controll . 'index',
+    ])->name($routexxx.'-dashboa1');
 
     // Rutas para diferentes páginas de dashboard
     Route::get('dashboard2', [

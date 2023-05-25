@@ -3,7 +3,7 @@
 @section('content')
 @section('styles')
  <!-- icheck bootstrap -->
- <link rel="stylesheet" href="{{asset('{{asset('plugins/icheck-bootstrap/icheck-bootstrap.min.css')}}">
+ <link rel="stylesheet" href="{{asset(''plugins/icheck-bootstrap/icheck-bootstrap.min.css')}}">
 @endsection
 <div class="container-fluid">
 <div class="row">
