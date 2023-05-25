@@ -112,7 +112,7 @@
         body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.',
         title: 'Toast Title',
         subtitle: 'Subtitle',
-        image: '{{asset("dist/img/user3-128x128.jpg')}}")}}',
+        image: '{{asset("dist/img/user3-128x128.jpg")}}',
         imageAlt: 'User Picture',
       })
     });
