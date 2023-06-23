@@ -3,7 +3,7 @@
 @section('content')
 @section('styles')
  <!-- uPlot -->
- <link rel="stylesheet" href="{{asset(''plugins/uplot/uPlot.min.css')}}">
+ <link rel="stylesheet" href="{{asset('plugins/uplot/uPlot.min.css')}}">
 @endsection
 <div class="container-fluid">
   <!-- AREA CHART -->

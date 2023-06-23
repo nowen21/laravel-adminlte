@@ -3,7 +3,7 @@
 @section('content')
 @section('styles')
  <!-- flag-icon-css -->
- <link rel="stylesheet" href="{{asset(''plugins/flag-icon-css/css/flag-icon.min.css')}}">
+ <link rel="stylesheet" href="{{asset('plugins/flag-icon-css/css/flag-icon.min.css')}}">
 @endsection
 
 <!-- Default box -->

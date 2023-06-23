@@ -3,9 +3,9 @@
 @section('content')
 @section('styles')
  <!-- Ion Slider -->
- <link rel="stylesheet" href="{{asset(''plugins/ion-rangeslider/css/ion.rangeSlider.min.css')}}">
+ <link rel="stylesheet" href="{{asset('plugins/ion-rangeslider/css/ion.rangeSlider.min.css')}}">
   <!-- bootstrap slider -->
-  <link rel="stylesheet" href="{{asset(''plugins/bootstrap-slider/css/bootstrap-slider.min.css')}}">
+  <link rel="stylesheet" href="{{asset('plugins/bootstrap-slider/css/bootstrap-slider.min.css')}}">
 @endsection
 <div class="container-fluid">
     <div class="row">

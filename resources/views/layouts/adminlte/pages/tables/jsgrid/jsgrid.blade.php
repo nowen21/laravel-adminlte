@@ -3,8 +3,8 @@
 @section('content')
 @section('styles')
   <!-- jsGrid -->
-  <link rel="stylesheet" href="{{asset(''plugins/jsgrid/jsgrid.min.css')}}">
-  <link rel="stylesheet" href="{{asset(''plugins/jsgrid/jsgrid-theme.min.css')}}">
+  <link rel="stylesheet" href="{{asset('plugins/jsgrid/jsgrid.min.css')}}">
+  <link rel="stylesheet" href="{{asset('plugins/jsgrid/jsgrid-theme.min.css')}}">
 @endsection
 <div class="container-fluid">
   <div class="card">
